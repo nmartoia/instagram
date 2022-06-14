@@ -18,5 +18,25 @@ img,li,#flex{
     max-width: 100%;
 }
 .post{
-    border: 1px solid black;
+    border: 5px solid black;
+    margin: 1rem 0;
+}
+.infoU{
+    display: flex;
+}
+.li5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h4{
+    display: inline-block;
+    margin: 0;
+}
+i,.like{
+    margin:0.5rem;
+}
+.sponsored{
+    display: inline-block;
+    color:rgb(173, 162, 7);
 }
