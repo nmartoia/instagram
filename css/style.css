@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+img,li,#flex{
+    max-width: 100%;
+}
+
+.imgU{
+    border-radius: 100%;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.post{
+    border: 1px solid black;
+}
