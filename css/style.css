@@ -40,3 +40,7 @@ i,.like{
     display: inline-block;
     color:rgb(173, 162, 7);
 }
+.li3{
+    display: flex;
+    justify-content: space-between;
+}
