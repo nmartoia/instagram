@@ -52,7 +52,12 @@ for (let i = 0; i < 10; i++) {
     const li6 =document.createElement('li');
     const li7 =document.createElement('li');
     const coeur= document.createElement('i');
-    coeur.className='fa-regular fa-heart';
+    if(obj.isLiked==true){
+        coeur.className="fa-solid fa-heart";
+    }
+    else{
+        coeur.className="fa-regular fa-heart";
+    }
     const comment= document.createElement('i');
     comment.className="fa-solid fa-comment";
     const partager= document.createElement('i');
