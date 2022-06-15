@@ -21,7 +21,7 @@ for (let i = 0; i < 10; i++) {
     const li1=document.createElement('li');
     const li2=document.createElement('li');
     const li3=document.createElement('li');
-    li3.className='li3';
+
     ul2.appendChild(li1);
     ul2.appendChild(li2);
     ul2.appendChild(li3);
@@ -29,7 +29,9 @@ for (let i = 0; i < 10; i++) {
     img.src=obj.imageURL;
     img.alt=obj.imageURL;
     li2.appendChild(img);
-    li1.className='infoU';
+    const ul3 = document.createElement('ul')
+    li1.appendChild(ul3)
+    ul3.className='infoU';
     const li4=document.createElement('li');
     li4.className='avatar'
     const li5=document.createElement('li');
@@ -48,8 +50,8 @@ for (let i = 0; i < 10; i++) {
         li5.appendChild(sponsored);
     }
     li5.className='li5';
-    li1.appendChild(li4);
-    li1.appendChild(li5);
+    ul3.appendChild(li4);
+    ul3.appendChild(li5);
     const li6 =document.createElement('li');
     const li7 =document.createElement('li');
     const coeur= document.createElement('i');
@@ -73,12 +75,15 @@ for (let i = 0; i < 10; i++) {
     else{
         booke.className="fa-regular fa-bookmark";
     }
+    const ul4=document.createElement('ul')
+    ul4.className='ul4';
+    li3.appendChild(ul4)
     li6.appendChild(coeur);
     li6.appendChild(comment);
     li6.appendChild(partager);
     li6.appendChild(like);
     li7.appendChild(booke);
-    li3.appendChild(li6);
-    li3.appendChild(li7);
+    ul4.appendChild(li6);
+    ul4.appendChild(li7);
     ul.appendChild(li);
 }
