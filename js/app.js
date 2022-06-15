@@ -31,6 +31,7 @@ for (let i = 0; i < 10; i++) {
     li2.appendChild(img);
     li1.className='infoU';
     const li4=document.createElement('li');
+    li4.className='avatar'
     const li5=document.createElement('li');
     const imgU=document.createElement('img');
     imgU.className='imgU';

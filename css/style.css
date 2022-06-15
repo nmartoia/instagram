@@ -40,9 +40,14 @@ i,.like{
 }
 .sponsored{
     display: inline-block;
-    color:rgb(173, 162, 7);
+    color:rgb(173, 163, 19);
+    text-decoration: underline;
+    font-size: 9px;
 }
 .li3{
     display: flex;
     justify-content: space-between;
+}
+.avatar{
+    margin:auto 0;
 }
